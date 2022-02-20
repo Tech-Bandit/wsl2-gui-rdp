@@ -15,9 +15,9 @@
 
 # Ubuntu GUI
 - Type these to in to install required packages: 
-`sudo apt install -y xrdp`
-`sudo apt install -y xfce4`
-`sudo apt install -y xfce4-goodies`
+`sudo apt install -y xrdp`/n
+`sudo apt install -y xfce4`/n
+`sudo apt install -y xfce4-goodies`\n
 
 # Config
 - This command backs up our config file: `sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak`
