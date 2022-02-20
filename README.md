@@ -1,17 +1,17 @@
--Install WSL -
+- Install WSL -
 wsl --install
 ______________
 This command will enable the required optional components, 
 download the latest Linux kernel, set WSL 2 as your default, 
 and install a Linux distribution for you (Ubuntu by default)
 
--Configure WSL-
+- Configure WSL-
 sudo apt update && sudo apt upgrade
 ______________
 This checks the version (Run this in Powershell)
 wsl -l -v
 
--Ubuntu GUI-
+- Ubuntu GUI-
 sudo apt install -y xrdp
 sudo apt install -y xfce4
 sudo apt install -y xfce4-goodies
@@ -28,16 +28,16 @@ sudo nano /etc/xrdp/startwm.sh
 #test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 #exec /bin/sh /etc/X11/Xsession
 
--add these lines-
+- add these lines-
 # xfce
 startxfce4
 ______________
--Start RDP Service-
+- Start RDP Service-
 sudo /etc/init.d/xrdp start
 ______________
 
 Refrences:
 https://github.com/davidbombal/wsl2/blob/main/ubuntu_gui_youtube
 https://docs.microsoft.com/en-us/windows/wsl/install
-Intall Windows Terminal
+- Intall Windows Terminal
 https://www.microsoft.com/store/productId/9N0DX20HK701
