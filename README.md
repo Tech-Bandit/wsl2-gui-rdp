@@ -23,17 +23,17 @@
 - This command backs up our config file: `sudo cp /etc/xrdp/xrdp.ini /etc/xrdp/xrdp.ini.bak`
 - Port configuration, note the right one is what we will be using: `sudo sed -i 's/3389/3390/g' /etc/xrdp/xrdp.ini`
 - Controls screen scaling and color:
-`sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini`
-`sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini`
-`echo xfce4-session > ~/.xsession`
+aaa,`sudo sed -i 's/max_bpp=32/#max_bpp=32\nmax_bpp=128/g' /etc/xrdp/xrdp.ini`
+sss,`sudo sed -i 's/xserverbpp=24/#xserverbpp=24\nxserverbpp=128/g' /etc/xrdp/xrdp.ini`
+ddd!`echo xfce4-session > ~/.xsession`
+
+
 
 # Edit
 - Edit the xrdp file : `sudo nano /etc/xrdp/startwm.sh`
 - Comment these lines below:
 `#test -x /etc/X11/Xsession && exec /etc/X11/Xsession`
-aaa,
-sss,
-ddd!
+
 
 `#exec /bin/sh /etc/X11/Xsession`
 
