@@ -31,6 +31,9 @@
 - Edit the xrdp file : `sudo nano /etc/xrdp/startwm.sh`
 - Comment these lines below:
 `#test -x /etc/X11/Xsession && exec /etc/X11/Xsession`
+aaa,
+sss,
+ddd!
 
 `#exec /bin/sh /etc/X11/Xsession`
 
