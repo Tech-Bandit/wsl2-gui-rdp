@@ -10,7 +10,7 @@
 - Create your account
 - Update repositorys and packages:`sudo apt update && sudo apt upgrade`
 
-### This checks the version 
+## This checks the version 
 - (Run this in Powershell) `wsl -l -v`
 
 # Ubuntu GUI
@@ -43,5 +43,6 @@
 # Refrences:
 - https://github.com/davidbombal/wsl2/blob/main/ubuntu_gui_youtube
 - https://docs.microsoft.com/en-us/windows/wsl/install
+
 ## Intall Windows Terminal
 - https://www.microsoft.com/store/productId/9N0DX20HK701
