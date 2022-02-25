@@ -44,5 +44,5 @@
 - https://github.com/davidbombal/wsl2/blob/main/ubuntu_gui_youtube
 - https://docs.microsoft.com/en-us/windows/wsl/install
 
-## Intall Windows Terminal
+## Install Windows Terminal
 - https://www.microsoft.com/store/productId/9N0DX20HK701
